@@ -1,0 +1,21 @@
+# writefile file.yaml
+file_type: csv
+dataset_name: customers-11500000 
+file_name: customers-11500000 
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - Index
+    - Customer_Id
+    - First_Name
+    - Last_Name
+    - Company
+    - City
+    - Country
+    - Phone_1
+    - Phone_2
+    - Email
+    - Subscription_Date
+    - Website 
